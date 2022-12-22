@@ -1,0 +1,126 @@
+ body{
+    background-color: white;
+    
+ }
+ .pic{
+    display: block;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+    width: 351px;
+    aspect-ratio: auto 351 / 113;
+    height: 113px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+   
+ }
+ 
+ .center {
+     display: block; 
+    text-align: -webkit-center; 
+    background-color: rgb(238, 238, 238);
+    
+    /* vertical-align: inherit; */
+}
+/*  .table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+    display: table-cell;
+    vertical-align: inherit; 
+} */
+.td{
+
+   text-align: -webkit-right;
+    background-color: rgb(112, 204, 194);
+    float: right;
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+     text-align: start; 
+     border-spacing: 2px;
+     font-variant: normal;
+     margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px; 
+  height: 150px;
+  width: 20%;
+  /* margin:0;
+  padding:0; */
+  
+
+}
+.tdalign{
+   display: table-cell;
+   vertical-align: inherit;
+   text-align: -webkit-right;
+    background-color: rgb(98, 179, 170);
+    
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+    margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right:20px;
+  margin-left: 20px;
+  height: 100px;
+  width: 50%;
+  
+}
+.tdx{
+   width: 37%;
+    background-color: rgb(126, 229, 218);
+    display: table-cell;
+    vertical-align: inherit;
+   float: left;
+
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+    margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 100px;
+  width: 50%;
+   
+ 
+  
+  
+}
+ .font{
+   font-size: small;
+   text-align: -webkit-center;
+ }
+
